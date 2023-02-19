@@ -1,0 +1,23 @@
+/* Poppins Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+/* Lato Font */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.base-btn{
+    padding: .5rem .7rem;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    border-radius: .2rem;
+    font-weight: 500;
+}
+
+.router-link-active{
+    color: #fff;
+}
